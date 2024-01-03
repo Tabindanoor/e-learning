@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import AdminDashboard from './components/AdminDashboard'
+import CommunicationThroughLMS from './components/CommunicationThroughLMS'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-    
+    <div>
+      <AdminDashboard/>
+      <CommunicationThroughLMS/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
